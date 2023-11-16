@@ -6,6 +6,10 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+/**
+ * The Main class is responsible for starting the JavaFX application and displaying the "Hello World"
+ * window.
+ */
 public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{

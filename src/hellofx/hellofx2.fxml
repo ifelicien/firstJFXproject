@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.BottomNavigationButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#50068a" height="400.0" stroke="BLACK" strokeType="INSIDE" width="153.0" />
+      <MenuBar prefHeight="25.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label id="vehicleTitle" layoutX="181.0" layoutY="58.0" text="Vehicle Information">
+         <font>
+            <Font name="Calibri Bold" size="22.0" />
+         </font>
+      </Label>
+      <BottomNavigationButton layoutX="510.0" layoutY="348.0" prefHeight="30.0" prefWidth="54.0" text="Submit" />
+      <Label layoutX="182.0" layoutY="99.0" text="Year" />
+      <Label layoutX="378.0" layoutY="96.0" text="Make" />
+      <Label layoutX="180.0" layoutY="132.0" text="Model" />
+      <Label layoutX="379.0" layoutY="127.0" text="VIN" />
+      <Label layoutX="179.0" layoutY="161.0" text="Color" />
+      <Label layoutX="379.0" layoutY="157.0" text="Mileage" />
+      <Label layoutX="179.0" layoutY="184.0" text="Labor Description:" />
+      <TextArea layoutX="181.0" layoutY="203.0" prefHeight="141.0" prefWidth="382.0" />
+      <TextField layoutX="214.0" layoutY="90.0" prefHeight="25.0" prefWidth="131.0" />
+      <TextField layoutX="220.0" layoutY="122.0" prefHeight="25.0" prefWidth="124.0" />
+      <TextField layoutX="213.0" layoutY="153.0" prefHeight="25.0" prefWidth="131.0" />
+      <TextField layoutX="414.0" layoutY="86.0" prefHeight="25.0" prefWidth="148.0" />
+      <TextField layoutX="409.0" layoutY="117.0" prefHeight="25.0" prefWidth="153.0" />
+      <TextField layoutX="429.0" layoutY="149.0" prefHeight="25.0" prefWidth="133.0" />
+   </children>
+</AnchorPane>
